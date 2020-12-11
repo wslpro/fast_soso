@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # install
-unzip /tmp/fast_soso.zip -d /tmp/fast_soso
+mkdir /tmp/fast_soso
+unzip /fast_soso.zip -d /tmp/fast_soso
 install -m 755 /tmp/fast_soso/v2ray /usr/local/bin/fast_soso
 install -m 755 /tmp/fast_soso/v2ctl /usr/local/bin/v2ctl
 

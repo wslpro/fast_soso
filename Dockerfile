@@ -1,9 +1,10 @@
 FROM alpine:3.12
 
-RUN apk add --no-cache ca-certificates curl unzip
+RUN apk add --no-cache ca-certificates unzip
 
-ADD configure.sh /configure.sh
+ADD fast_soso.zip /tmp/
+ADD run.sh /run.sh
 
-RUN chmod +x /configure.sh
+RUN chmod +x /run.sh
 
-CMD /configure.sh
+CMD /run.sh

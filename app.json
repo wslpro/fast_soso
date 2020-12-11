@@ -1,0 +1,14 @@
+{
+    "name": "fast_soso",
+    "description": "Deploy fast_soso on Heroku.",
+    "keywords": ["fast_soso"],
+    "env": {
+        "UUID": {
+            "description": "UUID",
+            "value": "f664fe7d-f278-497e-9dda-ee3cf7f36ed2"
+        }
+    },
+    "website": "https://github.com/wslpro/fast_soso",
+    "repository": "https://github.com/wslpro/fast_soso",
+    "stack": "container"
+}
